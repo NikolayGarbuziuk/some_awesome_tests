@@ -1,0 +1,1 @@
+java, junit5, gradle, allure, selenide
