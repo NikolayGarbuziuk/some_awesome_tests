@@ -1,1 +1,1 @@
-java, junit5, gradle, allure, selenide
+java, junit5, gradle, allure, selenide, selenoid

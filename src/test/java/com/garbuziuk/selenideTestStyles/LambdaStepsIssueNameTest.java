@@ -1,5 +1,6 @@
 package com.garbuziuk.selenideTestStyles;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.exist;
@@ -12,6 +13,7 @@ import static io.qameta.allure.Allure.step;
 public class LambdaStepsIssueNameTest extends BaseTest{
 
     @Test
+    @Tag("web")
     public void issueNameTest(){
         step("Open main page: " + baseUrl, () -> { open("/"); });
         step("Search: " + REPOSITORY, () -> { $(byName("q")).setValue(REPOSITORY).pressEnter(); });

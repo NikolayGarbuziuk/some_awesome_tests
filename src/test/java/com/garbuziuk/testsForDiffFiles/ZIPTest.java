@@ -1,6 +1,6 @@
 package com.garbuziuk.testsForDiffFiles;
 
-import guru.qa.nikolay.garbuziuk.lesson7.Utils.Utils;
+import com.garbuziuk.testsForDiffFiles.Utils.Utils;
 import net.lingala.zip4j.ZipFile;
 import org.junit.jupiter.api.Test;
 
